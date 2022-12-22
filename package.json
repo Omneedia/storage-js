@@ -1,16 +1,16 @@
 {
-  "name": "@supabase/storage-js",
+  "name": "@omneedia/storage-js",
   "version": "0.0.0",
-  "description": "Isomorphic storage client for Supabase.",
+  "description": "Isomorphic storage client for Omneedia.",
   "keywords": [
     "javascript",
     "typescript",
-    "supabase"
+    "omneedia"
   ],
-  "homepage": "https://github.com/supabase/storage-js",
-  "bugs": "https://github.com/supabase/storage-js/issues",
+  "homepage": "https://github.com/omneedia/storage-js",
+  "bugs": "https://github.com/omneedia/storage-js/issues",
   "license": "MIT",
-  "author": "Supabase",
+  "author": "Omneedia",
   "files": [
     "dist",
     "src"
@@ -19,7 +19,7 @@
   "module": "dist/module/index.js",
   "types": "dist/module/index.d.ts",
   "sideEffects": false,
-  "repository": "supabase/storage-js",
+  "repository": "omneedia/storage-js",
   "scripts": {
     "clean": "rimraf dist docs/v2",
     "format": "prettier --write \"{src,test}/**/*.ts\"",
